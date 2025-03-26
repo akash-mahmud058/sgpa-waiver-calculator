@@ -34,10 +34,10 @@ int main() {
 
     // Input name and student ID
     printf("Enter your name: ");
-    scanf(" %[^\n]s", name);  // Reads string until newline
+    scanf(" %[^\n]", name);
 
     printf("Enter your Student ID: ");
-    scanf(" %[^\n]s", studentID);  // Reads string until newline
+    scanf(" %[^\n]", studentID);
 
     // Number of courses
     int numCourses = 5;
